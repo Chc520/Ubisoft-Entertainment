@@ -1,0 +1,366 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			#biggest{
+				width: 1519.2px;
+				height: 1775px;
+			}
+			#navig{
+				width: 1519.2px;
+				height: 50px;
+				background: #1d1d1d;
+				margin: 0 auto;
+				position: fixed;
+				top: 0;
+				z-index: 10;
+			}
+			#logo{
+				width: 300px;
+				height: 50px;
+				float: left;
+				box-sizing: border-box;
+			}
+			#naviger{
+				width: 550px;
+				height: 50px;
+				float: left;
+				
+				padding-left:30px ;
+				box-sizing: border-box;
+			}
+			.navli{
+				float: left;
+				color: white;
+				line-height: 50px;
+				margin-right:80px ;
+				font-size: 18px ;
+			}
+			#search{
+				width: 160px;
+				height: 50px;
+				
+				background-color:#d2d2d2;
+				float: right;
+				font-size: 20px;
+				line-height: 50px;
+				box-sizing: border-box;
+				padding-left:10px ;
+			}
+			#sear{
+				
+				width: 31px;
+				height: 31px;
+				
+				vertical-align: middle;
+			}
+			#naviger ul li:hover{
+				color: aqua;
+				cursor: pointer;
+			}
+			#searsp{
+				margin-left:20px ;
+			}
+			#shoppingchabox{
+				width: 1519.2px;
+				height: 50px;
+				background: #3e61ad;
+				margin-top:50px ;
+				position: fixed;
+				z-index: 100;
+				top: 0;
+			}
+			#shopshou{
+				float: left;
+				margin-left:20px ;
+				line-height: 50px;
+				color: #FFFFFF;
+			}
+			#ul1{
+				width: 240px;
+				height: 50px;
+				float: right;
+			}
+			#ul1 li{
+				float: left;
+				width: 80px;
+				height: 50px;
+				font-size:14px ;
+				line-height: 50px;
+				color: white;
+			}
+			#ul1 li:hover{
+				cursor: pointer;
+				color: skyblue;
+			}
+			#bigbody{
+				width: 1519.2px;
+				height: 1776px;
+				background: url(../img/original_1454057335.jpg) 0px -15px;
+				background-size:2445px ;
+				padding-top: 150px;
+				box-sizing: border-box;
+			}
+			#bigbodybox{
+				width: 1280px;
+				height: 1603px;
+				background: white;
+				margin: 0 auto;
+			}
+			#big-title{
+				width: 100%;
+				height: 260px;
+				font-size: 20px;
+				margin: 0 auto;
+				line-height: 260px;
+				color: #454545;
+				text-align: center;
+			}
+			#shop-car-box{
+				width: 90%;
+				height: 1000px;
+				margin: 0 auto;
+				background: white;
+				box-sizing: border-box;
+				overflow: hidden;
+				
+			}
+			#shop-headbox{
+				width: 100%;
+				height: 50px;
+				background: #0d3954;
+				color: white;
+				line-height: 50px;
+				text-align: center;
+			}
+			#shop-body{
+				width: 100%;
+				
+			}
+			#shop-body ul{
+				width: 100%;
+				height: 80px;
+				margin-bottom:10px ;
+				
+			}
+			#shop-body ul li{
+				float: left;
+				background: #D2D2D2;
+				width: 280px;
+				border: white 1px solid;
+				height: 80px;
+				line-height: 80px;
+				text-align: center;
+				margin-right: 5px;
+			}
+			#shop-body ul li:hover{
+				cursor: pointer;
+				opacity: .8;
+			}
+			#add{
+				width: 100%;
+				height: 120px;
+				line-height: 120px;
+			}
+			
+			#add h3{
+				color: red;
+				float: right;
+			}
+			#add span{
+				float: right;
+				font-size: 16px;
+				
+			}
+			#jiesuan button{
+				width: 280px;
+				height: 50px;
+				border: none;
+				text-indent: 10px;
+				background: skyblue;
+				float: right;
+			}
+			#hot-shop-box{
+				width: 100%;
+				height: 365px;
+				margin: 0 auto;
+				background: black;
+				padding: 20px 0;
+				box-sizing: border-box;
+			}
+			
+			#hot-shophead{
+				
+				width: 100%;
+				text-align: center;
+				height: 35px;
+			}
+			#hot-shop-box h1{
+				width: 80px;
+				height: 35px;
+				line-height: 35px;
+				margin-left: 550px;
+				font-size: 18px;
+				color: white;
+				font-weight: 500;
+				border-top:white 1px solid ;
+				border-bottom:white 1px solid ;
+			}
+			#hot-shopbody{
+				width: 100%;
+				height: 290px;
+				margin-top:10px ;
+			}
+			
+			.hotpic{
+				width: 100%;
+				height: 60%;
+				
+			}
+			.hotcount{
+				width: 100%;
+				height: 40%;
+				
+			}
+			.hotcount h3{
+				width: 100%;
+				height: 70px;
+				font-weight: 500;
+				font-size:18px ;
+				color: white;
+				padding-top: 10px;
+				padding-left:10px ;
+				box-sizing: border-box;
+			}
+			.hotcount p{
+				color: red;
+				font-size:16px ;
+				padding-left:10px ;
+				box-sizing: border-box;
+			}
+			.hothotbox2{
+				width: 305px;
+				height: 290px;
+				float: left;
+				margin-left: 12px ;
+				
+			}
+			.hothotbox2:hover{
+				cursor: pointer;
+				opacity: .6;
+			}
+			.pic{
+				width: 100%;
+				height: 100%;
+			}
+			#footer{
+				width: 1519.2px;
+				height: 487.8px;
+				background: black;
+				padding: 30px;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px;
+				position: relative;
+			}
+			.wxwb{
+				width: 1459.2px;
+				height: 152px;
+				padding: 40px 0 20px;
+				border-bottom: solid 1px #404040;
+    			border-top: solid 1px #404040;
+    			text-align: center;
+    			box-sizing: border-box;
+			}
+			#chu{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 130px;
+				top: -198px;
+				display: none;
+			}
+			#chu2{
+				width: 80%;
+				height: 80%;
+				margin: 25px auto;
+			}
+			#chu3{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 730px;
+				top: -198px;
+				display: none;
+			}
+			#uull{
+				width: 100%;
+				height: 80px;
+				margin-bottom: 10px;
+				padding-left:100px ;
+			}
+			#uull li{
+				float: left;
+				width: 260px;
+				height: 50px;
+				line-height: 50px;
+				padding-left:20px ;
+				margin-top:10px ;
+				margin-right: 20px;
+				color: white;
+				text-align: left;
+				background: #454545;
+			}
+			#foot-lint{
+				padding: 45px 0 0;
+				text-align: center;
+				
+				font-size: 14px;
+				width: 100%;
+				height: 65px;
+			}
+			#ul3{
+				width: 100%;
+				height: 20px;
+				text-align: center;
+				padding-left:600px ;
+				box-sizing: border-box;
+			}
+			#ul3 li{
+				float: left;
+				width: 74px;
+				height: 20px;
+				color: white;
+				
+			}
+			#wei{
+				width: 100%;
+				height: 200.8px;
+				padding: 10px 0;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px ;
+				color: white;
+			}
+			#wei p{
+				margin-bottom:10px ;
+			}
+			#wen{
+				
+				width: 100%;
+				height: 46px;
+				margin: 0 0 10px;
+				text-align: center;
+			}
+			#wen img{
+				width: 46px;
+				height: 46px;
+			}
+			#gongan{
+				width: 300px;
+				padding: 20px 0;
+				margin: 0 auto;
+			}

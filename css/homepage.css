@@ -1,0 +1,863 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			#biggest{
+				width: 1519.2px;
+				height: 3930px;
+				/*margin-right:auto ;*/
+				/*margin-left:auto ;*/
+				position: relative;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			#navig{
+				width: 1519.2px;
+				height: 50px;
+				background: #1d1d1d;
+				margin: 0 auto;
+				position: fixed;
+				top: 0;
+				z-index: 10;
+
+			}
+			#logo{
+				width: 250px;
+				height: 50px;
+				float: left;
+				box-sizing: border-box;
+			}
+			.navli:hover{
+				color: aqua;
+				cursor: pointer;
+				opacity: .8;
+			}
+			.pic{
+				width: 100%;
+				height: 100%;
+			}
+			
+			#imgs ul{
+				width: 12000px;
+				height: 600px;
+				
+				position: absolute;
+				
+			}
+			#imgs ul li{
+				width: 1200px;
+				height: 600px;
+				float: left;
+				
+			}
+			
+			#naviger{
+				width: 550px;
+				height: 50px;
+				float: left;
+				margin-left:100px ;
+				padding-left:30px ;
+				box-sizing: border-box;
+			}
+			#landbox{
+				width: 80px;
+				height: 40px;
+				float: right;
+				margin-top:5px ;
+				margin-right: 20px;
+			}
+			#land{
+				width: 80px;
+				height: 40px;
+				border: none;
+				background-color: lightslategray;
+				float: left;
+				border-radius:5px ;
+			}
+			#land:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			.navli{
+				float: left;
+				color: white;
+				line-height: 50px;
+				margin-right:80px ;
+				font-size: 18px ;
+			}
+			#search{
+				width: 160px;
+				height: 50px;
+				background-color:#d2d2d2;
+				float: right;
+				font-size: 20px;
+				line-height: 50px;
+				box-sizing: border-box;
+				padding-left:10px ;
+			}
+			#sousuo{
+				width: 300px;
+				height: 40px;
+				color: #666666;
+				font-size: 18px;
+				position: fixed;
+				right: 0;
+				text-indent: 15px;
+				border: none;
+				border-radius: 5px;
+				top: 50px;
+				z-index: 10;
+				display: none;
+			}
+			#search:hover{
+				
+				cursor: pointer;
+				color: #C61A16;
+			}
+			#sear{
+				
+				width: 31px;
+				height: 31px;
+				
+				vertical-align: middle;
+			}
+			#searsp{
+				margin-left:20px ;
+			}
+			#carousel{
+				width: 100%;
+				height: 600px;
+				background: url(../img/top.jpg) no-repeat;
+				margin-top:50px ;
+				background-size: 100% 600px;
+				overflow: hidden;
+				
+			}
+			#imgs{
+				width: 1200px;
+				height: 100%;
+				margin: 0 auto;
+				overflow: hidden;
+				position: relative;
+			}
+			#shang{
+				width: 50px;
+				height: 60px;
+				border: none;
+				background: black;
+				position: absolute;
+				background:rgba(0,0,0,.8);
+				left: 0;
+				top: 280px;
+				z-index: 1;
+			}
+			#shang:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			#next{
+				width: 50px;
+				height: 60px;
+				border: none;
+				background: black;
+				background:rgba(0,0,0,.8);
+				position: absolute;
+				right: 0;
+				top: 280px;
+				z-index: 1;
+			}
+			#next:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			.pic2{
+				width: 30px;
+				height: 30px;
+			}
+			#ul1{
+				position: relative;
+				bottom: 55px;
+				left: 650px;
+			}
+			.dian{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				border: black 1px solid;
+				float: left;
+				background: #666666;
+				margin-right:10px ;
+				
+			}
+			.dian2{
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				border: black 1px solid;
+				float: left;
+				margin-right:10px ;
+			}
+			.active{
+				background: #3D61AD;
+			}
+			#one{
+				width: 100%;
+				height: 684px;
+				box-sizing: border-box;
+			}
+			#box1{
+				width: 59%;
+				height: 684px;
+				/*background: red;*/
+				
+				float: left;
+			}
+			#box2{
+				width: 41%;
+				height: 684px;
+				background: #3e61ad;
+				
+				box-sizing: border-box;
+				float: left;
+				
+			}
+			#newhead{
+				width: 100%;
+				height: 50px;
+				float: left;
+				
+			}
+			#newhead1{
+				width: 73%;
+				height: 50px;
+				background: #3d61ad;
+				float: left;
+				font-size:20px ;
+				color: white;
+				padding-top: 12px;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			#newhead2{
+				width: 27%;
+				height: 50px;
+				background-color: #252525;
+				color: #9d9d9d;
+				float: left;
+				font-size:20px ;
+				padding-left:20px ;
+				padding-top:12px ;
+				box-sizing: border-box;
+			}
+			#newhead2:hover{
+				opacity: .9;
+				cursor: pointer;
+				color: white;
+			}
+			#newbody{
+				width: 100%;
+				height: 634px;
+				float: left;
+				background: #2e2e2e;
+				
+				box-sizing: border-box;
+			}
+			.newbody1{
+				width: 96.5%;
+				height: 190px;
+				float: left;
+				margin-top:15px ;
+				margin-left:16px ;
+				background: seashell;
+			}
+			.newbody2{
+				width: 33%;
+				height: 190px;
+				float: left;
+				
+			}
+			.newbody2 img:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			
+			.newbody3{
+				width: 67%;
+				height: 190px;
+				float: left;
+				padding: 8px 15px 10px 5px;
+				box-sizing: border-box;
+				background: black;
+				
+			}
+			.newbody3 p{
+				width: 500px;
+				height: 60px;
+				overflow: hidden;
+				font-size:14px ;
+				color: #565656;
+			}
+			.newbody3 h3 a{
+				color: white;
+			}
+			.newbody3 h3 a:hover{
+				cursor: pointer;
+				color: gold;
+			}
+			.p1{
+				color: #565656;
+				font-size:14px ;
+			}
+			#plan{
+				width: 94%;
+				height: 94.3%;
+				float: left;
+				margin-top:20px ;
+				margin-left:20px ;
+				background: white;
+				position: relative;
+				
+			}
+			#planhead{
+				width: 92.5%;
+				height: 50px;
+				background: #3e61ad;
+				float: left;
+				color: white;
+				cursor: pointer;
+				margin-top: 25px;
+				margin-left: 25px;
+				padding-top: 12px;
+				padding-left: 20px;
+				box-sizing: border-box;
+			}
+			#planhead h3{
+				width: 100%;
+			}
+			#planhead p{
+				float: left;
+				width: 80%;
+			}
+			
+			#planbody{
+				width: 92.5%;
+				height: 462px;
+				background: white;
+				float: left;
+				margin-top: 10px;
+				margin-left: 25px;
+				overflow: hidden;
+			}
+			.planbody1{
+				height: 155.57px;
+				width: 50%;
+				float: left;
+				position: relative;
+				
+			}
+			/*#twoli{
+				display: none;
+			}*/
+			.nono{
+				background:rgba(255,255,255,.3) ;
+				width: 100%;
+				height: 100%;
+				display: none;
+				/*opacity: .3;*/
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.planbody1:hover .nono{
+				display: block;
+				cursor: pointer;
+			}
+			.planpbox{
+				width: 100%;
+				height: 50px;
+				background: rgba(0,0,0,.85);
+				position: absolute;
+				bottom: 0;
+				padding-left: 10px;
+				padding-top:5px ;
+				box-sizing: border-box;
+				z-index: 2;
+			}
+			.planp{
+				font-size: 14px;
+				color: white;
+			}
+			.planp2{
+				font-size: 14px;
+				color: red;
+			}
+			
+			#ul2{
+				float: left;
+				position: absolute;
+				bottom: 70px;
+				left: 273px;
+			}
+			#planend{
+				width: 92%;
+				height: 30px;
+				background: silver;
+				float: left;
+				font-size: 14px;
+				margin-left: 25px;
+				position: absolute;
+				bottom: 25px;
+				box-sizing: border-box;
+			}
+			#box3{
+				width: 100%;
+				height: 482px;
+				background: #D2D2D2;
+				
+				padding-top:22px ;
+				padding-left: 20px;
+				margin: 0 auto;
+				box-sizing: border-box;
+			}
+			#shop{
+				width: 57%;
+				height: 440px;
+				float: left;
+				background: #D2D2D2;
+			}
+			#shopbody{
+				width: 100%;
+				height: 330px;
+				float: left;
+				background: #D2D2D2;
+				margin:20px auto 0 ;
+			}
+			.shopbody1{
+				width: 278px;
+				height: 100%;
+				float: left;
+				
+			}
+			.shopbody1:hover{
+				opacity: .7;
+				cursor: pointer;
+			}
+			.shopbody2{
+				width: 278px;
+				height: 100%;
+				float: left;
+				margin-left: 10px;
+			}
+			.shopbody2:hover{
+				opacity: .7;
+				cursor: pointer;
+			}
+			.shopimg{
+				width: 100%;
+				height: 50%;
+				float: left;
+				
+			}
+			.shopcont{
+				width: 100%;
+				height: 27%;
+				padding: 8px;
+				background: white;
+				float: left;
+				box-sizing: border-box;
+			}
+			.shopcont p{
+				color: red;
+				font-size: 18px;
+			}
+			.shopbuy{
+				width: 100%;
+				height: 50px;
+				float: left;
+				padding-left:20px ;
+				box-sizing: border-box;
+				background: red;
+				line-height: 50px;
+				color: white;
+			}
+			.spimg{
+				float: right;
+				width: 30px;
+				height: 30px;
+				margin-top:10px ;
+				background: white;
+				border-radius:50% ;
+				margin-right:20px ;
+				padding-bottom: 15px;
+				padding-left:5px ;
+				box-sizing: border-box;
+				
+			}
+			.spimg1{
+				width: 20px;
+				height: 20px;
+				
+				
+			}
+			.player-a{
+				text-decoration:none;
+				width: 162px;
+				height: 28px;
+				background: #ff6b04;
+				font-size:18px ;
+				margin-bottom:15px;
+				display: block;
+				padding: 2px 10px;
+				color: white;
+			}
+			#player{
+				width: 40%;
+				height: 440px;
+				float: left;
+				background: #D2D2D2;
+				margin-left: 25px;
+			}
+			#playerhead{
+				width: 100%;
+				height: 50px;
+				background: #3d61ad;
+				
+			}
+			#playerbody{
+				width: 100%;
+				height: 322px;
+				float: left;
+				background: white;
+				margin:20px auto 0 ;
+				padding: 10px;
+				box-sizing: border-box;
+			}
+			#playerpicbox{
+				width: 40%;
+				height: 100%;
+				background: white;
+				float: left;
+			}
+			#playerpic{
+				width: 100%;
+				height: 72%;
+			}
+			#playerspan{
+				width: 58%;
+				height: 100%;
+				float: left;
+				margin-left:10px ;
+				padding-top: 20px;
+				background: white;
+				box-sizing: border-box;
+			}
+			#player-p{
+				font-size: 16px;
+				color: #666;
+				line-height: 24px;
+			}
+			#player-sp{
+				font-size: 16px;
+				color: #000000;
+				line-height: 24px;
+			}
+			#playershow{
+				background: #eee;
+				height: 110px;
+				overflow: hidden;
+				color: #666;
+				padding: 10px;
+				box-sizing: border-box;
+				font-size: 16px;
+				line-height: 24px;
+				
+			}
+			#hui{
+				margin-bottom:10px ;
+				height: 24px;
+				line-height: 24px;
+				color: #3e61ad;
+				
+			}
+			#huiimg{
+				height: 26px;
+				vertical-align: middle;
+				
+			}
+			#box4{
+				width: 100%;
+				height: 758.68px;
+				background: #3e61ad;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+			#games{
+				width: 100%;
+				height: 100%;
+				background: white;
+				padding: 20px;
+				box-sizing: border-box;
+				
+			}
+			#gameshead{
+				width: 90px;
+				height: 40px;
+				text-align: center;
+				background: white;
+				line-height: 40px;
+				margin: 0 auto;
+				border-top:black 1px solid ;
+				border-bottom:black 1px solid ;
+			}
+			#gameshead h1{
+				font-size:18px ;
+				font-weight: 500;
+			}
+			#gamesbody{
+				width: 100%;
+				height: 85%;
+				background: fuchsia;
+				margin-top:20px ;
+				
+			}
+			#gamespic{
+				width: 100%;
+				height: 49%;
+				background: white;
+				position: relative;
+			}
+			.gamescontent{
+				width: 100%;
+				height: 30%;
+				background: white;
+				padding-left:10px ;
+				box-sizing: border-box;
+			
+			}
+			.gamespicone{
+				width:24.475% ;
+				height:100% ;
+				float: left;
+				background: palegreen;
+			}
+			.gamespicone:hover{
+				opacity: .5;
+				cursor: pointer;
+			}
+			.gamespicsbox:hover{
+				opacity: .5;
+				cursor: pointer;
+			}
+			.gamespicsbox{
+				width: 24.475%;
+				height: 100%;
+				float: left;
+				background: lightblue;
+				margin-left: 10px;
+			}
+			.gamesh3{
+				color: #252525;
+				font-weight:bold ;
+				padding: 5px 0;
+			}
+			.gamesh3 img{
+				float: right;
+				margin-top:5px ;
+			}
+			.gamesp{
+				color: #767676;
+				font-size:12px ;
+			}
+			#gamespic2{
+				width: 100%;
+				height: 53.5%;
+				background: white;
+				padding-top:25px ;
+				box-sizing: border-box;
+			}
+			.gamestu{
+				width: 100%;
+				height: 70%;
+				background: violet;
+			}
+			#box5{
+				width: 100%;
+				height: 850px;
+				background: black;
+				padding-top:20px ;
+				box-sizing: border-box;
+			}
+			#mp4head{
+				width: 90px;
+				height: 40px;
+				
+				text-align: center;
+				margin: 0 auto;
+				border-top:white 1px solid ;
+				border-bottom:white 1px solid ;
+				line-height: 40px;
+			}
+			#mp4head h1{
+				width: 90px;
+				font-size:18px ;
+				font-weight:500 ;
+				color: white;
+			}
+			#mp4body{
+				width: 100%;
+				height: 760px;
+				background: black;
+				margin-top:25px;
+			}
+			.mp4picbox{
+				width: 25%;
+				height: 50%;
+				float: left;
+				position: relative;
+			}
+			.mp4picbox:hover{
+				cursor: pointer;
+				opacity: .5;
+			}
+			#bbq{
+				width: 100%;
+				height: 60px;
+				position: absolute;
+				bottom: 0;
+				background: rgba(0,0,0,.8);
+			}
+			#morebox{
+				width: 25%;
+				height: 50%;
+				float: left;
+				background:#3e61ad;
+			}
+		
+			
+			#footer{
+				width: 1519.2px;
+				height: 487.8px;
+				background: black;
+				padding: 30px;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px;
+				position: relative;
+			}
+			.wxwb{
+				width: 1459.2px;
+				height: 152px;
+				padding: 40px 0 20px;
+				border-bottom: solid 1px #404040;
+    			border-top: solid 1px #404040;
+    			text-align: center;
+    			box-sizing: border-box;
+			}
+			#chu{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 130px;
+				top: -198px;
+				display: none;
+			}
+			#chu2{
+				width: 80%;
+				height: 80%;
+				margin: 25px auto;
+			}
+			#chu3{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 730px;
+				top: -198px;
+				display: none;
+			}
+			#uull{
+				width: 100%;
+				height: 80px;
+				margin-bottom: 10px;
+				padding-left:100px ;
+			}
+			#uull li{
+				float: left;
+				width: 260px;
+				height: 50px;
+				line-height: 50px;
+				padding-left:20px ;
+				margin-top:10px ;
+				margin-right: 20px;
+				color: white;
+				text-align: left;
+				background: #454545;
+			}
+			#foot-lint{
+				padding: 45px 0 0;
+				text-align: center;
+				
+				font-size: 14px;
+				width: 100%;
+				height: 65px;
+			}
+			#ul3{
+				width: 100%;
+				height: 20px;
+				text-align: center;
+				padding-left:600px ;
+				box-sizing: border-box;
+			}
+			#ul3 li{
+				float: left;
+				width: 74px;
+				height: 20px;
+				color: white;
+				
+			}
+			#wei{
+				width: 100%;
+				height: 200.8px;
+				padding: 10px 0;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px ;
+				color: white;
+			}
+			#wei p{
+				margin-bottom:10px ;
+			}
+			#wen{
+				
+				width: 100%;
+				height: 46px;
+				margin: 0 0 10px;
+				text-align: center;
+			}
+			#wen img{
+				width: 46px;
+				height: 46px;
+			}
+			#gongan{
+				width: 300px;
+				padding: 20px 0;
+				margin: 0 auto;
+			}
+			#mp4div{
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,.8);
+				display: none;
+				
+				position: fixed;
+				z-index: 500;
+				
+			}
+			#mp4div video{
+				margin-top: 80px;
+				margin-left: 300px;
+				width: 800px;
+			}

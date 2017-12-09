@@ -1,0 +1,457 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			#biggest{
+				width: 1519.2px;
+				height: 2945px;
+			}
+			#navig{
+				width: 1519.2px;
+				height: 50px;
+				background: #1d1d1d;
+				margin: 0 auto;
+				position: fixed;
+				top: 0;
+				z-index: 10;
+			}
+			#logo{
+				width: 300px;
+				height: 50px;
+				float: left;
+				box-sizing: border-box;
+			}
+			#naviger{
+				width: 550px;
+				height: 50px;
+				float: left;
+				
+				padding-left:30px ;
+				box-sizing: border-box;
+			}
+			.navli{
+				float: left;
+				color: white;
+				line-height: 50px;
+				margin-right:80px ;
+				font-size: 18px ;
+			}
+			#search{
+				width: 160px;
+				height: 50px;
+				
+				background-color:#d2d2d2;
+				float: right;
+				font-size: 20px;
+				line-height: 50px;
+				box-sizing: border-box;
+				padding-left:10px ;
+			}
+			#sear{
+				
+				width: 31px;
+				height: 31px;
+				
+				vertical-align: middle;
+			}
+			#searsp{
+				margin-left:20px ;
+			}
+			#shoppingchabox{
+				width: 1519.2px;
+				height: 50px;
+				background: #3e61ad;
+				margin-top:50px ;
+				position: fixed;
+				z-index: 100;
+				top: 0;
+			}
+			#shopshou{
+				float: left;
+				margin-left:20px ;
+				line-height: 50px;
+				color: #FFFFFF;
+			}
+			#ul1{
+				width: 240px;
+				height: 50px;
+				float: right;
+			}
+			#ul1 li{
+				float: left;
+				width: 80px;
+				height: 50px;
+				font-size:14px ;
+				line-height: 50px;
+				color: white;
+			}
+			#ul1 li:hover{
+				cursor: pointer;
+				color: skyblue;
+			}
+			#bigbody{
+				width: 1519.2px;
+				height: 2445px;
+				background: url(img/original_1454057335.jpg) 0px -15px;
+				background-size:2445px ;
+				padding-top: 150px;
+				box-sizing: border-box;
+			}
+			#bigbodybox{
+				width: 1280px;
+				height: 1603px;
+				background: firebrick;
+				margin: 0 auto;
+			}
+			#shopheadbox{
+				width: 100%;
+				height: 384px;
+				background-color: #454545 ;
+			}
+			#shopimgbox{
+				width: 50%;
+				height: 384px;
+				float: left;
+				background: salmon;
+			}
+			#shopbuybox{
+				width: 50%;
+				height: 282.6px;
+				float: left;
+				padding: 25px;
+				box-sizing:border-box;
+				font-weight: 500;
+			}
+			.pic{
+				width: 100%;
+				height: 100%;
+			}
+			#shopbodybox{
+				width: 100%;
+				height: 1220px;
+				padding: 20px;
+				box-sizing: border-box;
+				background: #00FFFF;
+			}
+			#shopbuybox h1{
+				color: white;
+				font-size:36px ;
+				font-weight: 500;
+			}
+			#shopbuybox h2{
+				color: red;
+				font-size:24px ;
+				margin-bottom:5px ;
+			}
+			#buybox{
+				width: 590px;
+				height: 60px;
+				padding: 0 10px;
+				box-sizing: border-box;
+				margin-top:20px ;
+			}
+			#buy1{
+				width: 280px;
+				height: 50px;
+				background-color:#568bbc ;
+				margin-top:10px ;
+				color: white;
+				text-align: left;
+				padding-left:10px ;
+				line-height: 50px;
+				float: left;
+				border: none;
+				box-sizing: border-box;
+			}
+			#buy1:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			#buy2:hover{
+				opacity: .8;
+				cursor: pointer;
+			}
+			.navli:hover{
+				color: aqua;
+				cursor: pointer;
+				opacity: .8;
+			}
+			#buy2{
+				width: 280px;
+				height: 50px;
+				background-color:#c61a16;
+				margin-top:10px ;
+				color: white;
+				text-align: left;
+				float: right;
+				
+				line-height: 50px;
+				padding-left:10px ;
+				border: none;
+				box-sizing: border-box;
+			}
+			#jianjie{
+				width: 909px;
+				height: 1200px;
+				float: left;
+			}
+			
+			#shopbodyhead{
+				width: 909.9px;
+				height: 49.6px;
+				background-color: #333;
+			}
+			#shopbodyhead span{
+				width: 303.3px;
+				height: 49.6px;
+				padding-left:20px ;
+				line-height: 50px;
+				border-right: #969696 1px solid;
+				color: #969696;
+				float: left;
+				font-weight: 500;
+				box-sizing: border-box;
+			}
+			#shopcontentbox{
+				width: 909.9px;
+				height: 1130px;
+				background: white;
+				padding: 25px;
+				box-sizing: border-box;
+				
+			}
+			#titlebar{
+				width: 100%;
+				height: 40px;
+				color: #40505f;
+			    font-size: 20px;
+			    border-bottom: solid 1px #C8CFD6;
+			    line-height: 40px;
+			    margin-bottom: 20px;
+			    position: relative;
+			    padding-left: 25px;
+			    left: 0px;
+			    top: 10px;
+			  
+			}
+			#shopcontentbox p{
+				font-size:14px ;
+				line-height: 20px;
+				color: #454545;
+			}
+			.hui{
+				width: 100%;
+				height: 60px;
+				position: absolute;
+				bottom: 0;
+				background: rgba(0,0,0,.85)
+				
+			}
+			#xiao{
+				float: right;
+				width: 25px;
+				height: 25px;
+				margin-right:30px ;
+				margin-top:15px ;
+			}
+			#hotshop{
+				width: 310px;
+				height: 1180px;
+				float: left;
+				background: white;
+				margin-left:20px ;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+			#header{
+				margin-bottom: 20px;
+				width: 100%;
+			}
+			#header h1{
+				color: #000000;
+				font-size: 18px;
+				padding: 8px 0 ;
+				box-sizing: border-box;
+				text-align: center;
+				font-weight: 500;
+			}
+			.hotshopbox{
+				width: 100%;
+				height: 272px;
+				font-size:14px ;
+			}
+			.hotshopbox:hover{
+				opacity: .7;
+				cursor: pointer;
+			}
+			.hotshopimg{
+				width: 100%;
+				height: 162px;
+			}
+			.capiton{
+				width: 100%;
+				height: 90px;
+				padding: 9px;
+				box-sizing: border-box;
+				font-size:14px ;
+			}
+			.capiton h3{
+				height: 40px;
+				width: 100%;
+				font-size: 18px;
+				font-weight: 500;
+			}
+			.capiton p{
+				color: red;
+				font-size:14px ;
+			}
+			#gamepicsbox{
+				width: 1280px;
+				height: 690px;
+				background: white;
+				margin: 0 auto;
+				
+			}
+			#gametitle{
+				width: 100%;
+				height: 50px;
+				font-size: 18px;
+				line-height: 50px;
+				padding-left:20px ;
+				box-sizing: border-box;
+				color: white;
+				background: #0d3954;
+			}
+			#gamepicsbody{
+				width: 100%;
+				height: 640px;
+				background: white;
+			}
+			.gamepics{
+				width: 25%;
+				height: 320px;
+				float: left;
+				overflow: hidden;
+				position: relative;
+			}
+			.gamepics:hover{
+			cursor: pointer;
+			opacity: .8;
+			}
+			.pic2{
+				width:320px;
+				height: 320px;
+			}
+			#footer{
+				width: 1519.2px;
+				height: 487.8px;
+				background: black;
+				padding: 30px;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px;
+				position: relative;
+			}
+			.wxwb{
+				width: 1459.2px;
+				height: 152px;
+				padding: 40px 0 20px;
+				border-bottom: solid 1px #404040;
+    			border-top: solid 1px #404040;
+    			text-align: center;
+    			box-sizing: border-box;
+			}
+			#ul2{
+				width: 100%;
+				height: 80px;
+				margin-bottom: 10px;
+				padding-left:100px ;
+			}
+			#ul2 li{
+				float: left;
+				width: 260px;
+				height: 50px;
+				line-height: 50px;
+				padding-left:20px ;
+				margin-top:10px ;
+				margin-right: 20px;
+				color: white;
+				text-align: left;
+				background: #454545;
+			}
+			#foot-lint{
+				padding: 45px 0 0;
+				text-align: center;
+				
+				font-size: 14px;
+				width: 100%;
+				height: 65px;
+			}
+			#ul3{
+				width: 100%;
+				height: 20px;
+				text-align: center;
+				padding-left:600px ;
+				box-sizing: border-box;
+			}
+			#ul3 li{
+				float: left;
+				width: 74px;
+				height: 20px;
+				color: white;
+				
+			}
+			#wei{
+				width: 100%;
+				height: 200.8px;
+				padding: 10px 0;
+				box-sizing: border-box;
+				text-align: center;
+				font-size:14px ;
+				color: white;
+			}
+			#wei p{
+				margin-bottom:10px ;
+			}
+			#wen{
+				
+				width: 100%;
+				height: 46px;
+				margin: 0 0 10px;
+				text-align: center;
+			}
+			#wen img{
+				width: 46px;
+				height: 46px;
+			}
+			#gongan{
+				width: 300px;
+				padding: 20px 0;
+				margin: 0 auto;
+				
+				
+			}
+			#chu{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 130px;
+				top: -198px;
+				display: none;
+			}
+			#chu2{
+				width: 80%;
+				height: 80%;
+				margin: 25px auto;
+			}
+			#chu3{
+				width: 280px;
+				height: 280px;
+				background: #646464;
+				position: absolute;
+				left: 730px;
+				top: -198px;
+				display: none;
+			}

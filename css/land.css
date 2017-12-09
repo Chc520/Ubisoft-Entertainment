@@ -1,0 +1,300 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			#supper{
+				width: 1519.2px;
+				height: 1200px;
+				
+			}
+			#biggest{
+				width:100%;
+				height: 900px;
+				background: url(../img/bg1.jpg) no-repeat;
+				padding-top:50px ;
+				box-sizing: border-box;
+				background-size: 100% 1030px;
+			}
+			#navig{
+				width: 100%;
+				height: 50px;
+				background: #101010;
+				position: fixed;
+				top: 0;
+				z-index: 90;
+			}
+			#naviger{
+				width: 550px;
+				height: 50px;
+				float: left;
+				margin-left:100px ;
+				padding-left:30px ;
+				box-sizing: border-box;
+			}
+			.navli{
+				float: left;
+				color: white;
+				line-height: 50px;
+				margin-right:80px ;
+				font-size: 18px ;
+			}
+			#logo{
+				width: 150px;
+				height: 50px;
+				padding-right: 40px;
+				float: left;
+				box-sizing: border-box;
+			}
+			.pic{
+				width: 100%;
+				height: 100%;
+			}
+			#denglu{
+				height: 50px;
+				width: 250px;
+				float: right;
+				background: #666666;
+				padding: 15px 0 15px 80px;
+				box-sizing: border-box;
+				color: white;
+			}
+			#denglu:hover{
+				opacity: .9;
+			}
+			#deng{
+				width: 40px;
+				font-size: 14px;
+				border-right:white 1px solid;
+				float: left;
+			}
+			#deng a{
+				cursor: pointer;
+				
+			}
+			#deng a:hover{
+				text-decoration:underline;
+			}
+			#zhu{
+				width: 40px;
+				font-size: 14px;
+				float: left;
+				padding-left:10px ;
+				box-sizing: border-box;
+				
+			}
+			#zhu a{
+				cursor: pointer;
+				
+			}
+			#zhu a:hover{
+				text-decoration:underline;
+				
+			}
+			#huiyuanbox{
+				width: 600px;
+				height: 700px;
+				margin: 0 auto;
+				margin-top:50px ;
+				background: #FFFFFF;
+				padding-top: 50px;
+				box-sizing: border-box;
+				display: block;
+			}
+			#huiyuanbox2{
+				display: none;
+				width: 600px;
+				height: 700px;
+				margin: 0 auto;
+				margin-top:50px ;
+				background: #FFFFFF;
+				padding-top: 50px;
+				box-sizing: border-box;
+			}
+			#title{
+				width: 100%;
+				height: 95px;
+				background: #144357;
+				padding-left:190px ;
+				box-sizing: border-box;
+			}
+			#title img{
+				width: 204px;
+				height: 90px;
+			}
+			
+			#huiyuanbox h3{
+				height: 90px;
+				line-height: 90px;
+				font-size: 30px;
+				text-align: center;
+				font-weight: 500;
+				
+			}
+			#huiyuanbox2 h3{
+				height: 90px;
+				line-height: 90px;
+				font-size: 30px;
+				text-align: center;
+				font-weight: 500;
+			}
+			#usernamebox{
+				width: 100%;
+				height: 35px;
+				margin-top:50px ;
+				padding-right:90px ;
+				text-align: right;
+				box-sizing: border-box;
+			}
+			.navli:hover{
+				color: aqua;
+				cursor: pointer;
+				opacity: .8;
+			}
+			#youxiangbox{
+				width: 100%;
+				height: 35px;
+				text-align: right;
+				padding-right:90px ;
+				box-sizing: border-box;
+			}
+			#youxiang{
+				width: 356px;
+				height: 31px;
+			}
+			#username{
+				width: 356px;
+				height: 31px;
+				
+			}
+			#passwordbox{
+				width: 100%;
+				height: 35px;
+				margin-top:10px;
+				padding-right:90px ;
+				box-sizing: border-box;
+				text-align: right;
+			}
+			#passwordbox1{
+				width: 100%;
+				height: 35px;
+				margin-top:10px;
+				padding-right:90px ;
+				text-align: right;
+				box-sizing: border-box;
+			}
+			#passwordbox2{
+				width: 100%;
+				height: 35px;
+				margin-top:10px;
+				padding-right:90px ;
+				text-align: right;
+				box-sizing: border-box;
+			}
+			#password{
+				width: 356px;
+				height: 31px;
+			}
+			#password1{
+				width: 356px;
+				height: 31px;
+			}
+			#password2{
+				width: 356px;
+				height: 31px;
+			}
+			#check{
+				width: 100%;
+				height: 23px;
+				font-size:16px ;
+				padding-left:110px ;
+				padding-right:76px ;
+				box-sizing: border-box;
+				margin-top:50px ;
+				
+			}
+			#btn:hover{
+				cursor: pointer;
+				opacity: .8;
+			}
+			#check2{
+				width: 100%;
+				height: 23px;
+				font-size:16px ;
+				
+				padding-left:180px ;
+				padding-right:76px ;
+				box-sizing: border-box;
+				margin-top:50px ;
+			}
+			#check2 input{
+				float: left;
+				margin-top: 5px ;
+			}
+			#check2 label{
+				float: left;
+				
+			}
+			#check2 a{
+				float: left;
+			}
+			#check a{
+				float: right;
+			}
+			#btn{
+				width: 450px;
+				height: 50px;
+				background: #3fa74e;
+				text-align: center;
+				border: none;
+				font-size:16px ;
+				margin-top:30px ;
+				color: white;
+				margin-left:80px ;
+			}
+			#btn2{
+				width: 450px;
+				height: 50px;
+				background: #3fa74e;
+				text-align: center;
+				border: none;
+				font-size:16px ;
+				margin-top:30px ;
+				color: white;
+				margin-left:80px ;
+			}
+			#nousername{
+				width: 100%;
+				height: 30px;
+				font-size:16px ;
+				padding-left:230px ;
+				padding-right:100px ;
+				box-sizing: border-box;
+				margin-top: 30px ;
+			}
+			#nousername a{
+				color: green;
+			}
+			#nousername a:hover{
+				cursor: pointer;
+				text-decoration:underline;
+			}
+			#endbox{
+				width: 1519.2px;
+				height: 300px;
+				padding: 30px;
+				box-sizing: border-box;
+				text-align: center;
+				background-color: #000000 ;
+				color: #999999;
+			}
+			#endbox a{
+				text-decoration:none;
+				color: #999999;
+			}
+			.ppp{
+				width: 100%;
+				height: 20px;
+				margin-left: 150px;
+				color: red;
+			}
